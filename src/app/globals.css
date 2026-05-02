@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --color-void: #0D0E14;
+  --color-surface: #13141C;
+  --color-panel: rgba(10, 11, 18, 0.88);
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-subtle: rgba(255, 255, 255, 0.05);
+
+  --color-plasma: #1D9E75;
+  --color-plasma-light: #5DCAA5;
+  --color-orbit: #534AB7;
+  --color-orbit-light: #AFA9EC;
+  --color-disturbance: #D85A30;
+  --color-disturbance-light: #F0997B;
+
+  --color-text-primary: #E1F5EE;
+  --color-text-secondary: rgba(255,255,255,0.55);
+  --color-text-tertiary: rgba(255,255,255,0.28);
+
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --font-body: 'Instrument Sans', sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-pill: 20px;
+
+  --nav-height: 48px;
+  --panel-width: 260px;
+  --panel-padding: 16px;
+  --status-height: 32px;
+}
+
+@theme inline {
+  --color-background: var(--color-void);
+  --color-foreground: var(--color-text-primary);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--color-void);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--color-surface); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }
