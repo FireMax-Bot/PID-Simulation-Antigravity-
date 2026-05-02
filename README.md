@@ -199,7 +199,7 @@ Proportional     Integral           Derivative
 
 ## About
 
-Built by **Noel Isaac Aj** — BTech Robotics & Automation, Semester 4.
+Built by **Noel Isaac Aj** — BTech Robotics & Automation.
 
 This simulation is the software companion to my real-world differential drive
 robot project (Robot GCS V2), which uses an ESP32, overhead ArUco marker
