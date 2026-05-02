@@ -98,7 +98,7 @@ export default function Navbar() {
 
           {/* Source link */}
           <a
-            href="https://github.com"
+            href="https://github.com/FireMax-Bot/PID-Simulation-Antigravity-"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 transition-colors duration-200 uppercase"
