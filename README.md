@@ -72,6 +72,7 @@ This is the same math powering my real-world ESP32 differential drive robot
 ---
 
 ## Project Structure
+```
 src/
 ├── app/
 │   ├── layout.tsx          # Root layout, metadata, font loading
@@ -90,7 +91,8 @@ src/
 │   ├── physics.ts          # Vehicle physics, heading math, wind
 │   └── utils.ts            # cn(), clamp(), angleWrap() helpers
 └── hooks/
-└── useSimulation.ts    # Simulation state, refs, animation loop
+    └── useSimulation.ts    # Simulation state, refs, animation loop
+```
 
 ---
 
