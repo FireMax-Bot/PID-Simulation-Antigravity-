@@ -37,7 +37,7 @@ This is the same math powering my real-world ESP32 differential drive robot
 
 | Simulation Running | Converging (well tuned) |
 |---|---|
-| ![Panel](docs/screenshots/pid-panel.png) | ![Converging](docs/screenshots/converging.png) |
+| ![Panel](docs/screenshots/converging.png) | ![Converging](docs/screenshots/pid-panel.png) |
 
 ---
 
